@@ -1,0 +1,37 @@
+{
+    "name": "I2Cdevlib-ADXL345", 
+    "repository": {
+        "url": "https://github.com/jrowberg/i2cdevlib.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "dependencies": {
+        "frameworks": "arduino", 
+        "name": "I2Cdevlib-Core"
+    }, 
+    "export": {
+        "include": "Arduino/ADXL345"
+    }, 
+    "version": "615f132009", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Jeff Rowberg", 
+            "url": "https://github.com/jrowberg", 
+            "email": "jeff@rowberg.net"
+        }
+    ], 
+    "keywords": [
+        "i2cdevlib", 
+        "sensor", 
+        "accelerometer", 
+        "i2c"
+    ], 
+    "id": 96, 
+    "description": "The ADXL345 is a small, thin, ultralow power, 3-axis accelerometer with high resolution (13-bit) measurement"
+}

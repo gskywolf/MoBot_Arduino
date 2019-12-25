@@ -1,0 +1,37 @@
+{
+    "name": "I2Cdevlib-ITG3200", 
+    "keywords": [
+        "gyroscope", 
+        "sensor", 
+        "i2cdevlib", 
+        "i2c"
+    ], 
+    "description": "The ITG-3200 is groundbreaking 3-axis, digital output MEMS gyroscope", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/jrowberg/i2cdevlib.git"
+    }, 
+    "dependencies": {
+        "name": "I2Cdevlib-Core", 
+        "frameworks": "arduino"
+    }, 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "export": {
+        "include": "Arduino/ITG3200"
+    }, 
+    "version": "3b4c8bda90", 
+    "authors": [
+        {
+            "email": "jeff@rowberg.net", 
+            "url": "https://github.com/jrowberg", 
+            "maintainer": false, 
+            "name": "Jeff Rowberg"
+        }
+    ], 
+    "id": 103
+}
